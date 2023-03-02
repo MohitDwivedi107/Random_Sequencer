@@ -105,7 +105,7 @@ class Sequencer:
 
 if __name__ == '__main__':
     df1 = pd.read_csv(
-        r'C:\Users\MohitDwivedi\OneDrive - TheMathCompany Private Limited\Desktop\PIP\D.O.D\Project\temp_data.csv')
+        r'C:\Users\XXXXXXXXXXXX\temp_data.csv')
     n = 100000
     start = time.time()
     s = Sequencer(df1, n)
